@@ -1,3 +1,3 @@
 # SoccerMatchBetting
 
-![Betting Image](https://i0.wp.com/www.completesports.com/wp-content/uploads/2019/11/soccer-betting-resize.jpg?fit=600%2C334&ssl=1)
+![Betting Image](https://www.techmagazines.net/wp-content/uploads/2020/11/Playing-ball-bets-at-a-trusted-football-betting-agent-768x378-1.png)
