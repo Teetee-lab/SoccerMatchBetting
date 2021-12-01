@@ -32,18 +32,32 @@ The dataset was obtained  from https://projects.fivethirtyeight.com/soccer-predi
 ## Repository Structure
 
 ```
-├── Images                          <- Folder containing graphs and images
+├── Images                      <- Folder containing graphs and images
 │   
-├── notebooks                       <- Directory containing project  notebooks
-│   ├── Data Cleaning.ipynb         <- documentation of the data cleaning in Jupyter notebook            
+├── notebooks                   <- Directory containing project  notebooks
+│   ├── Data Cleaning.ipynb     <- documentation of the data cleaning in Jupyter notebook            
 │   ├── EDA.ipynb        		    <- documentation of the EDA and visualization in Jupyter  notebook         
-│   ├── Models.ipynb               	<- documentation of different models in Jupyter notebook
-│   └──Catboost info                <- A folder with catboost algorithm models and scores
-├── SoccerMatchBetting.ipynb        <- Narrative documentation of the project in Jupyter notebook
+│   ├── Models.ipynb            <- documentation of different models in Jupyter notebook
+│   └──Catboost info            <- A folder with catboost algorithm models and scores
+├── SoccerMatchBetting.ipynb    <- Narrative documentation of the project in Jupyter notebook
+├── app.py                      <- streamlit documentation
 ├── model.sav
-├── Presentation   <- PDF version of project presentation
-└── README.md                       <- Top-level README
+├── environment.yml             <- environment libraries 
+├── requirement.txt             <- text file of liabries and dependency
+├── Presentation.pdf            <- PDF version of project presentation
+└── README.md                   <- Top-level README
 ``` 
+
+## Contributing
+Contributions are what make the open source community such an amazing place to learn, and create. Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this project better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks!
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
 
 ## AUthor
 - Titilayo Amuwo(Teetee)
