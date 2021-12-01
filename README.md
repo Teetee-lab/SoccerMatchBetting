@@ -53,11 +53,11 @@ Contributions are what make the open source community such an amazing place to l
 
 If you have a suggestion that would make this project better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks!
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
 ## AUthor
 - Titilayo Amuwo(Teetee)
