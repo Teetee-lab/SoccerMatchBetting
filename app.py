@@ -4,22 +4,22 @@ import pandas as pd
 import sklearn
 from PIL import Image
 
-Image = Images.open('logo')
+Img= Images.open('soccerguide')
+st.image(Img)
 
 st.Image(image,use_column_width =True)
 
 st.title("Soccer Match Fixture Betting App")
 
-st.header("This App predict Soccer match fixture .")
+st.header("""This App predict Soccer match fixture using the Soccer
+Power Index and the Probabilities of winning at Home or Away.""")
 
 st.markdown("""<a href="https://projects.fivethirtyeight.com/global-club-soccer-rankings/">Real-time SPI Rankings</a>""",
             unsafe_allow_html=True)
 
-st.sidebar.header("Specify Input Parameter" )
-
-slected_team1 = st.sidebar.selectbox('team',list)
-
 st.subheader("Input match data below:")
+
+
 
 spi1 = st.slider("What is the home team's ESPN SPI rating?", 
                  min_value=1, max_value=100)
