@@ -13,11 +13,13 @@ The dataset was obtained  from https://projects.fivethirtyeight.com/soccer-predi
   - spi global rankings
   - spi matches latest
   - spi matches
-- the second dataset is organized into one folder.
+- The second dataset is organized into one folder.
   - This was an archive folder that I downloaded using [DBsqlite](https://sqlitebrowser.org/)
   
-- Clean and merge the two dataset. The Data cleaning notebook can be found in the [notebook folder.](https://github.com/Teetee-lab/SoccerMatchBetting/blob/main/Notebooks/DataCleaning.ipynb)         
+- After that, I clean and merge the two dataset. The Data cleaning notebook can be found in the [notebook folder.](https://github.com/Teetee-lab/SoccerMatchBetting/blob/main/Notebooks/DataCleaning.ipynb)         
 - Finally, I create the target from the home and away scores, with that I have a multiclass category (Draw/HomeWin/AwayWin).
+
+- Environment details can be found [here](https://github.com/Teetee-lab/SoccerMatchBetting/blob/main/environment.yml)
 
 ## Project Results
 - There was a monotonic trend performance with the accuracy score of all the models. As one increases the other decreases, which is due to the complexity of soccer games. After tuning several models, the Logistic Regression model was the best performing model in classifying the business problem. The model achieved an accuracy score of 60% on unseen data, weighted average score at 54% with a probability of loss at -0.9. The macro-average area under the curve is 0.74 and the micro average area under the curve is 0.78.
