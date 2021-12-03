@@ -6,10 +6,17 @@
 Forecasting sports events like matches or tournaments has attracted the interest of different communities all over the world for quite a long time and sport events like soccer matches take place regularly, which generate huge public attention. Winning soccer matches is becoming an essential aspect of soccer clubs and soccer fans. Also, The global sport gambling system is multi trillion dollar rich while there are billions of soccer fans that gamble everyday without yielding a return. My aim is to educate these set of people, to make a better decision using my model to predict the soccer game before making a bet.  with that, they can minimize loss and yield high returns.
 
 ## Data Overview
-The dataset was obtained  from https://projects.fivethirtyeight.com/soccer-predictions/ , and the soccer archive odds was downloaded from  https://www.kaggle.com/sashchernuh/european-football. 
-- The first dataset is organized into four folders.
+The dataset was obtained  from https://projects.fivethirtyeight.com/soccer-predictions/, and the soccer archive odds was downloaded from  https://www.kaggle.com/sashchernuh/european-football. 
+
+- The first dataset is organized into four folders and was downloaded from [here](https://projects.fivethirtyeight.com/soccer-predictions/)
+  - spi global rankings intl
+  - spi global rankings
+  - spi matches latest
+  - spi matches
 - the second dataset is organized into one folder.
-- Clean and merge the two dataset. The Data cleaning notebook can be found in the notebook folder.         
+  - This was an archive folder that I downloaded using [DBsqlite](https://sqlitebrowser.org/)
+  
+- Clean and merge the two dataset. The Data cleaning notebook can be found in the [notebook folder.](https://github.com/Teetee-lab/SoccerMatchBetting/blob/main/Notebooks/DataCleaning.ipynb)         
 - Finally, I create the target from the home and away scores, with that I have a multiclass category (Draw/HomeWin/AwayWin).
 
 ## Project Result
@@ -48,16 +55,6 @@ The dataset was obtained  from https://projects.fivethirtyeight.com/soccer-predi
 └── README.md                   <- Top-level README
 ``` 
 
-## Contributing
-Contributions are what make the open source community such an amazing place to learn, and create. Any contributions you make are greatly appreciated.
-
-If you have a suggestion that would make this project better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks!
-
-- Fork the Project
-- Create your Feature Branch (git checkout -b feature/AmazingFeature)
-- Commit your Changes (git commit -m 'Add some AmazingFeature')
-- Push to the Branch (git push origin feature/AmazingFeature)
-- Open a Pull Request
 
 ## AUthor
 - Titilayo Amuwo(Teetee)
