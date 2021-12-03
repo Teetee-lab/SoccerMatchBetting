@@ -4,7 +4,7 @@ import pandas as pd
 import sklearn
 from PIL import Image
 
-Img= Images.open('soccerguide')
+Img= Image.open('soccerguide.webp')
 st.image(Img)
 
 st.Image(image,use_column_width =True)
