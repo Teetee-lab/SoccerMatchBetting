@@ -4,10 +4,8 @@ import pandas as pd
 import sklearn
 from PIL import Image
 
-Img= Image.open('soccerguide.webp')
-st.image(Img)
 
-st.Image(image,use_column_width =True)
+st.image("https://www.pinnacle.com/Cms_Data/Contents/Guest/Media/betting-articles/soccer/strategy/ultimate-guide-soccer-hero.jpg")
 
 st.title("Soccer Match Fixture Betting App")
 
