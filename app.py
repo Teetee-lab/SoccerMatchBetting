@@ -41,7 +41,7 @@ if st.button("Click here to run!"):
     st.write(f"Bookmaker odds for away win: {prob2}")
     st.write(f"Bookmaker odds for tie: {probtie}")
     
-    deploy_model = pickle.load(open('model.sav','rb'))
+    model = pickle.load(open('model.sav','rb'))
     
     data = pd.DataFrame(columns = ['spi1', 'spi2', 'prob1', 'prob2', 'probtie'])
     data = data.append({'spi1': spi1,
