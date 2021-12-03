@@ -20,7 +20,7 @@ The dataset was obtained  from https://projects.fivethirtyeight.com/soccer-predi
 - Finally, I create the target from the home and away scores, with that I have a multiclass category (Draw/HomeWin/AwayWin).
 
 ## Project Results
-- There was a monotonic trend performance with the accuracy score of all the models. As one increases the other decreases, which is due to the complexity of soccer games. After tuning several models, the Logistic Regression model was the best performing model in classifying the business problem. The model achieved an accuracy score of 60% on unseen data, weighted average score at 53% with a probability of loss at -0.9. The macro-average area under the curve is 0.74 and the micro average area under the curve is 0.77.
+- There was a monotonic trend performance with the accuracy score of all the models. As one increases the other decreases, which is due to the complexity of soccer games. After tuning several models, the Logistic Regression model was the best performing model in classifying the business problem. The model achieved an accuracy score of 60% on unseen data, weighted average score at 54% with a probability of loss at -0.9. The macro-average area under the curve is 0.74 and the micro average area under the curve is 0.78.
 
 ## Conclusions
 - My recommendation will be to take into consideration each team's soccer power index before using the model to predict the match. To make it simple, using the model to predict a match before betting will give you more relevant information about each team's quality and more valuable insights to their performance analysis than studying the results afterwards.
