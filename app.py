@@ -47,11 +47,11 @@ if st.button("Click here to run!"):
                         'spi2': spi2,
                         'prob1': prob1,
                         'prob2': prob2,
-                        'probtie': probtie
-                        'season': season
-                        'xg1':xg1
-                        'xg2':xg2
-                        'importance1':importance1
+                        'probtie': probtie,
+                        'season': season,
+                        'xg1':xg1,
+                        'xg2':xg2,
+                        'importance1':importance1,
                         'importance2':importance2},
                        ignore_index=True)
     pred = model.predict(data)
