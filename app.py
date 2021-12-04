@@ -9,8 +9,7 @@ st.image("https://www.pinnacle.com/Cms_Data/Contents/Guest/Media/betting-article
 
 st.title("Soccer Match Fixture Betting App")
 
-st.header("""This App predict Soccer match fixture using the Soccer
-Power Index and the Probabilities of winning at Home or Away.""")
+st.header("This App predict Soccer match fixture using the Soccer Power Index and the Probabilities of winning at Home or Away.")
 
 st.markdown("""<a href="https://projects.fivethirtyeight.com/global-club-soccer-rankings/">Real-time SPI Rankings</a>""",
             unsafe_allow_html=True)
@@ -43,12 +42,17 @@ if st.button("Click here to run!"):
     
     model = pickle.load(open('model.sav','rb'))
     
-    data = pd.DataFrame(columns = ['spi1', 'spi2', 'prob1', 'prob2', 'probtie'])
+    data = pd.DataFrame(columns = ['season','spi1','spi2','prob1','prob2','probtie','xg1','xg2','importance1','importance2'])
     data = data.append({'spi1': spi1,
                         'spi2': spi2,
                         'prob1': prob1,
                         'prob2': prob2,
-                        'probtie': probtie},
+                        'probtie': probtie
+                        'season': season
+                        'xg1':xg1
+                        'xg2':xg2
+                        'importance1':importance1
+                        'importance2':importance2},
                        ignore_index=True)
     pred = model.predict(data)
     
