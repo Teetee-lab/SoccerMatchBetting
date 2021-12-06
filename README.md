@@ -1,6 +1,6 @@
-[Link to Soccer Match prediction App](https://soccer-match-predictor-app.herokuapp.com/)
-
 # SoccerMatchBetting
+
+[Match prediction App](https://soccer-match-predictor-app.herokuapp.com/)
 
 ![Betting Image](https://news.wagertalk.com/wp-content/uploads/2018/07/soccer_money.jpg)
 
