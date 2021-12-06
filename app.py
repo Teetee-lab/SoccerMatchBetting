@@ -31,7 +31,7 @@ html= """
 
 st.markdown(html,unsafe_allow_html=True)
 
-df= pd.read_csv("Data/soccer-spi/club_data.csv",index_col=0)
+df= pd.read_csv("Notebooks/club_data.csv",index_col=0)
 
 st.write(df)
 

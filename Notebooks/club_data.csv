@@ -1,0 +1,129 @@
+,rank,prev_rank,name,league,off,def,spi
+0,1,1,Bayern Munich,German Bundesliga,3.64,0.51,93.72
+1,2,2,Manchester City,Barclays Premier League,2.97,0.24,93.57
+2,3,3,Liverpool,Barclays Premier League,3.06,0.46,91.04
+3,4,4,Chelsea,Barclays Premier League,2.47,0.24,90.32
+5,6,6,Real Madrid,Spanish Primera Division,2.57,0.62,84.21
+6,7,8,Internazionale,Italy Serie A,2.59,0.66,83.64
+7,8,9,Atletico Madrid,Spanish Primera Division,2.29,0.51,83.19
+8,9,10,Barcelona,Spanish Primera Division,2.44,0.62,82.68
+9,10,7,RB Leipzig,German Bundesliga,2.53,0.7,82.23
+10,11,11,Paris Saint-Germain,French Ligue 1,2.52,0.75,81.16
+11,12,12,Napoli,Italy Serie A,2.28,0.6,81.13
+13,14,14,Borussia Dortmund,German Bundesliga,2.53,0.82,79.73
+14,15,18,Juventus,Italy Serie A,2.27,0.66,79.61
+15,16,16,Real Sociedad,Spanish Primera Division,1.98,0.49,79.41
+16,17,13,Manchester United,Barclays Premier League,2.29,0.73,78.42
+17,18,17,Sevilla FC,Spanish Primera Division,2.01,0.56,78.17
+18,19,21,Arsenal,Barclays Premier League,2.05,0.61,77.68
+19,20,19,West Ham United,Barclays Premier League,2.15,0.67,77.68
+22,23,22,Atalanta,Italy Serie A,2.34,0.83,77.06
+23,24,25,Villarreal,Spanish Primera Division,2.07,0.65,76.95
+24,25,26,Athletic Bilbao,Spanish Primera Division,1.79,0.53,75.41
+25,26,24,Brighton and Hove Albion,Barclays Premier League,1.85,0.57,75.39
+26,27,27,AC Milan,Italy Serie A,2.12,0.77,75.16
+27,28,30,Borussia Monchengladbach,German Bundesliga,2.18,0.81,75.06
+28,29,28,Bayer Leverkusen,German Bundesliga,2.15,0.81,74.81
+30,31,40,TSG Hoffenheim,German Bundesliga,2.11,0.84,73.39
+31,32,32,Tottenham Hotspur,Barclays Premier League,1.99,0.76,73.18
+32,33,31,Leicester City,Barclays Premier League,2.04,0.82,72.51
+33,34,39,Wolverhampton,Barclays Premier League,1.81,0.66,72.48
+35,36,33,VfL Wolfsburg,German Bundesliga,1.94,0.76,72.35
+36,37,36,Real Betis,Spanish Primera Division,1.97,0.8,72.04
+37,38,35,Celta Vigo,Spanish Primera Division,1.9,0.76,71.7
+38,39,37,Mainz,German Bundesliga,1.94,0.79,71.56
+39,40,38,Crystal Palace,Barclays Premier League,1.91,0.78,71.4
+40,41,49,Aston Villa,Barclays Premier League,1.98,0.84,71.18
+41,42,41,Leeds United,Barclays Premier League,1.9,0.79,70.96
+43,44,42,Valencia,Spanish Primera Division,1.92,0.82,70.69
+44,45,46,Lille,French Ligue 1,1.79,0.72,70.59
+45,46,43,AS Roma,Italy Serie A,2.15,1.0,70.57
+46,47,45,SC Freiburg,German Bundesliga,1.92,0.83,70.36
+47,48,47,Everton,Barclays Premier League,1.93,0.84,70.29
+48,49,44,AS Monaco,French Ligue 1,1.75,0.71,70.06
+49,50,51,Southampton,Barclays Premier League,1.8,0.77,69.55
+50,51,53,Stade Rennes,French Ligue 1,1.88,0.84,69.25
+51,52,54,Lyon,French Ligue 1,2.1,1.03,68.91
+52,53,50,Lazio,Italy Serie A,1.99,0.95,68.76
+54,55,55,Rayo Vallecano,Spanish Primera Division,1.77,0.79,68.42
+55,56,56,Fiorentina,Italy Serie A,1.71,0.75,68.31
+56,57,57,Osasuna,Spanish Primera Division,1.68,0.74,67.98
+57,58,58,1. FC Union Berlin,German Bundesliga,1.84,0.87,67.97
+58,59,52,Brentford,Barclays Premier League,1.88,0.9,67.9
+60,61,60,Eintracht Frankfurt,German Bundesliga,1.99,1.04,66.62
+61,62,61,FC Cologne,German Bundesliga,1.98,1.04,66.45
+63,64,63,Nice,French Ligue 1,1.76,0.88,65.99
+65,66,66,Lens,French Ligue 1,1.78,0.91,65.78
+67,68,69,Marseille,French Ligue 1,1.66,0.83,65.15
+68,69,65,Burnley,Barclays Premier League,1.87,1.01,65.01
+70,71,70,Torino,Italy Serie A,1.67,0.86,64.87
+71,72,71,Shakhtar Donetsk,UEFA Champions League,1.99,1.13,64.64
+72,73,73,Sassuolo,Italy Serie A,1.93,1.09,64.48
+73,74,74,Verona,Italy Serie A,1.81,1.0,64.21
+74,75,75,Getafe,Spanish Primera Division,1.46,0.71,64.19
+77,78,81,VfB Stuttgart,German Bundesliga,1.91,1.12,63.32
+78,79,80,Alavés,Spanish Primera Division,1.63,0.88,63.31
+79,80,78,Mallorca,Spanish Primera Division,1.66,0.91,63.28
+80,81,79,Espanyol,Spanish Primera Division,1.68,0.93,63.15
+83,84,83,Strasbourg,French Ligue 1,1.74,1.0,62.85
+84,85,84,Hertha Berlin,German Bundesliga,1.71,0.98,62.74
+86,87,88,Levante,Spanish Primera Division,1.65,0.94,62.22
+88,89,98,Watford,Barclays Premier League,1.69,0.99,62.0
+89,90,90,VfL Bochum,German Bundesliga,1.64,0.95,61.94
+90,91,92,Newcastle,Barclays Premier League,1.8,1.09,61.87
+91,92,89,Bologna,Italy Serie A,1.8,1.1,61.63
+92,93,91,Granada,Spanish Primera Division,1.62,0.97,61.0
+96,97,97,Elche,Spanish Primera Division,1.5,0.91,59.79
+97,98,103,Nantes,French Ligue 1,1.59,1.0,59.66
+101,102,101,Udinese,Italy Serie A,1.57,1.01,58.9
+105,106,117,FC Augsburg,German Bundesliga,1.61,1.09,57.94
+107,108,107,Angers,French Ligue 1,1.46,0.96,57.69
+109,110,109,Sampdoria,Italy Serie A,1.65,1.14,57.58
+111,112,112,Montpellier,French Ligue 1,1.64,1.15,57.17
+112,113,113,Dynamo Kiev,UEFA Champions League,1.62,1.13,57.06
+113,114,115,Brest,French Ligue 1,1.59,1.11,57.01
+115,116,118,Arminia Bielefeld,German Bundesliga,1.56,1.09,56.76
+119,120,122,Cadiz,Spanish Primera Division,1.53,1.09,56.21
+126,127,131,Norwich City,Barclays Premier League,1.53,1.12,55.41
+127,128,128,New York City FC,Major League Soccer,1.66,1.24,55.4
+133,134,134,Genoa,Italy Serie A,1.61,1.23,54.38
+146,147,147,Reims,French Ligue 1,1.32,1.01,53.17
+147,148,135,SpVgg Greuther Fürth,German Bundesliga,1.57,1.25,53.13
+150,151,151,St Etienne,French Ligue 1,1.47,1.18,52.69
+155,156,155,Cagliari,Italy Serie A,1.56,1.29,52.03
+156,157,158,Clermont Foot,French Ligue 1,1.47,1.22,51.71
+158,159,159,Troyes,French Ligue 1,1.43,1.17,51.68
+159,160,160,Empoli,Italy Serie A,1.57,1.31,51.58
+163,164,171,Spezia,Italy Serie A,1.57,1.32,51.4
+164,165,168,Bordeaux,French Ligue 1,1.49,1.25,51.31
+168,169,174,Lorient,French Ligue 1,1.38,1.17,50.51
+175,176,178,F.B.C Unione Venezia,Italy Serie A,1.42,1.25,49.76
+177,178,180,New England Revolution,Major League Soccer,1.71,1.55,49.73
+185,186,185,New York Red Bulls,Major League Soccer,1.31,1.18,48.45
+186,187,186,Salernitana,Italy Serie A,1.45,1.34,48.34
+191,192,191,Philadelphia Union,Major League Soccer,1.44,1.36,47.69
+194,195,196,Los Angeles FC,Major League Soccer,1.63,1.56,47.58
+197,198,199,Metz,French Ligue 1,1.31,1.23,47.44
+208,209,208,Seattle Sounders FC,Major League Soccer,1.32,1.3,46.18
+214,215,214,FC Sheriff Tiraspol,UEFA Champions League,1.42,1.42,45.86
+221,222,221,Colorado Rapids,Major League Soccer,1.33,1.35,45.34
+228,229,231,Nashville SC,Major League Soccer,1.27,1.31,44.63
+244,245,246,Sporting Kansas City,Major League Soccer,1.35,1.45,43.63
+254,255,255,Columbus Crew,Major League Soccer,1.42,1.55,43.01
+256,257,257,Minnesota United FC,Major League Soccer,1.39,1.53,42.79
+280,281,277,Orlando City SC,Major League Soccer,1.33,1.55,41.13
+281,282,279,DC United,Major League Soccer,1.39,1.62,40.9
+288,289,285,Atlanta United FC,Major League Soccer,1.2,1.42,40.47
+292,293,293,Portland Timbers,Major League Soccer,1.49,1.79,39.89
+299,300,300,Los Angeles Galaxy,Major League Soccer,1.33,1.62,39.47
+322,323,323,Chicago Fire,Major League Soccer,1.33,1.72,37.52
+328,329,330,Montreal Impact,Major League Soccer,1.18,1.57,37.07
+337,338,339,FC Dallas,Major League Soccer,1.29,1.72,36.66
+348,349,350,Real Salt Lake,Major League Soccer,1.29,1.75,36.07
+387,388,387,San Jose Earthquakes,Major League Soccer,1.25,1.83,33.65
+393,394,392,Vancouver Whitecaps,Major League Soccer,1.11,1.67,33.43
+403,404,407,Inter Miami CF,Major League Soccer,1.1,1.68,32.92
+417,418,419,Toronto FC,Major League Soccer,1.19,1.84,32.35
+433,434,435,Austin FC,Major League Soccer,1.13,1.81,31.39
+435,436,437,Houston Dynamo,Major League Soccer,1.07,1.73,31.31
+512,513,513,FC Cincinnati,Major League Soccer,1.0,2.09,23.93
