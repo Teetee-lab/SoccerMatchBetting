@@ -1,4 +1,4 @@
-[Soccer App](https://soccer-match-predictor-app.herokuapp.com/)
+[Link to Soccer Match prediction App](https://soccer-match-predictor-app.herokuapp.com/)
 
 # SoccerMatchBetting
 
