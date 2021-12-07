@@ -7,7 +7,7 @@ from PIL import Image
 
 
 html_temp = """
-<div style = "background-color:yellow;padding:13px">
+<div style = "background-color:orange;padding:13px">
 <h1 style="color:black;text-align:center;">Soccer Match Fixture Betting App</h1>
 </div>
 """
@@ -24,7 +24,7 @@ st.markdown("""<a href="https://projects.fivethirtyeight.com/global-club-soccer-
             unsafe_allow_html=True)
 
 html= """
-<div style = "background-color:yellow;padding:8px">
+<div style = "background-color:orange;padding:8px">
 <h1 style="color:black;text-align:center;">Club Data</h1>
 </div>
 """
@@ -42,17 +42,25 @@ season = st.number_input(
     min_value=2016, 
     max_value=2022)
 
-spi1 = st.slider("What is the home team's ESPN SPI rating?", 
-                 min_value=1.00, max_value=100.00)
+spi1 = st.number_input(
+    label="What is the home team's ESPN SPI rating?", 
+    min_value=1.00, 
+    max_value=100.00)
 
-spi2 = st.slider("What is the away team's ESPN SPI rating?",
-                 min_value=1.00, max_value=100.00)
+spi2 = st.number_input(
+    label="What is the away team's ESPN SPI rating?",
+    min_value=1.00, 
+    max_value=100.00)
 
-prob1 = st.slider("What are the bookmaker odds on the home team winning?",
-                 min_value=0.001, max_value=1.000)
+prob1 = st.number_input(
+    label="What are the bookmaker odds on the home team winning?",
+    min_value=0.001, 
+    max_value=1.000)
 
-prob2 = st.slider("What are the bookmaker odds on the away team winning?",
-                 min_value=0.001, max_value=1.000)
+prob2 = st.number_input(
+    label="What are the bookmaker odds on the away team winning?",
+    min_value=0.001, 
+    max_value=1.000)
 
 probtie = round((1.000 - (prob1 + prob2)), 3)
 
