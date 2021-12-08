@@ -55,6 +55,8 @@ The dataset was obtained  from https://projects.fivethirtyeight.com/soccer-predi
 ├── model.sav
 ├── environment.yml             <- environment libraries 
 ├── requirement.txt             <- text file of liabries and dependency
+├── setup.sh                    <- streamlit config
+├── Procfile
 ├── Presentation.pdf            <- PDF version of project presentation
 └── README.md                   <- Top-level README
 ``` 
