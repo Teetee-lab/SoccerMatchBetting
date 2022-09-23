@@ -2,7 +2,7 @@
 
 [Match prediction App](https://soccer-match-predictor-app.herokuapp.com/)
 
-![Betting Image](https://news.wagertalk.com/wp-content/uploads/2018/07/soccer_money.jpg)
+![Betting Image](https://previews.123rf.com/images/markoaliaksandr/markoaliaksandr2102/markoaliaksandr210200005/163500701-online-sports-betting-dollars-are-falling-on-the-background-of-a-hand-with-a-smartphone-and-a-soccer.jpg)
 
 ## Business Problem
 Forecasting sports events like matches or tournaments has attracted the interest of different communities all over the world for quite a long time and sport events like soccer matches take place regularly, which generate huge public attention. Winning soccer matches is becoming an essential aspect of soccer clubs and soccer fans. Also, The global sport gambling system is multi trillion dollar rich while there are billions of soccer fans that gamble everyday without yielding a return. My aim is to educate these set of people, to make a better decision using my model to predict the soccer game before making a bet.  with that, they can minimize loss and yield high returns.
