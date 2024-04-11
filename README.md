@@ -2,7 +2,7 @@
 
 [Match prediction App](https://soccer-match-predictor-app.herokuapp.com/)
 
-![Betting Image](https://jcccampsatmedford.org/wp-content/uploads/2020/03/soccer-ball-ss-img.jpg)
+![Betting Image](./Images/soccermatchbet.png)
 
 ## Business Problem
 - Forecasting sports events like matches or tournaments has attracted the interest of different communities all over the world for quite a long time and sports events like soccer matches take place regularly because they generate huge public attention. Aside from that, winning soccer matches is becoming an essential aspect of soccer clubs and soccer fans; not only that, the global sports gambling system is multi-billion dollar rich, meanwhile, there are billions of soccer fans that gamble every day without yielding a return. My aim in this project is to build a machine learning model for soccer fans so that they can use it to predict a soccer match wisely and minimize loss.
