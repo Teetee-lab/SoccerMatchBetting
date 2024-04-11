@@ -2,43 +2,42 @@
 
 [Match prediction App](https://soccer-match-predictor-app.herokuapp.com/)
 
-![Betting Image](https://news.wagertalk.com/wp-content/uploads/2018/07/soccer_money.jpg)
+![Betting Image](https://jcccampsatmedford.org/wp-content/uploads/2020/03/soccer-ball-ss-img.jpg)
 
 ## Business Problem
-Forecasting sports events like matches or tournaments has attracted the interest of different communities all over the world for quite a long time and sport events like soccer matches take place regularly, which generate huge public attention. Winning soccer matches is becoming an essential aspect of soccer clubs and soccer fans. Also, The global sport gambling system is multi trillion dollar rich while there are billions of soccer fans that gamble everyday without yielding a return. My aim is to educate these set of people, to make a better decision using my model to predict the soccer game before making a bet.  with that, they can minimize loss and yield high returns.
+- Forecasting sports events like matches or tournaments has attracted the interest of different communities all over the world for quite a long time and sports events like soccer matches take place regularly because they generate huge public attention. Aside from that, winning soccer matches is becoming an essential aspect of soccer clubs and soccer fans; not only that, the global sports gambling system is multi-billion dollar rich, meanwhile, there are billions of soccer fans that gamble every day without yielding a return. My aim in this project is to build a machine learning model for soccer fans so that they can use it to predict a soccer match wisely and minimize loss.
 
 ## Data Overview
-The dataset was obtained  from https://projects.fivethirtyeight.com/soccer-predictions/, and the soccer archive odds was downloaded from  https://www.kaggle.com/sashchernuh/european-football. 
+The dataset was obtained  from FiveThirtyEight, and the soccer archive odds were downloaded from Kaggle. 
 
-- The first dataset is organized into four folders and was downloaded from [here](https://projects.fivethirtyeight.com/soccer-predictions/)
+- The first dataset is organized into four folders and was downloaded from FiveThirtyEight
   - spi global rankings intl
   - spi global rankings
   - spi matches latest
   - spi matches
 - The second dataset is organized into one folder.
-  - This was an archive folder that I downloaded using [DBsqlite](https://sqlitebrowser.org/)
+  - This was an archive folder that I downloaded from Kaggle
   
-- After that, I clean and merge the two dataset. The Data cleaning notebook can be found in the [notebook folder.](https://github.com/Teetee-lab/SoccerMatchBetting/blob/main/Notebooks/DataCleaning.ipynb)         
-- Finally, I create the target from the home and away scores, with that I have a multiclass category (Draw/HomeWin/AwayWin).
+- After that, I cleaned and merged the two datasets and the exploratory data analysis can be found in the [notebook folder](https://github.com/Teetee-lab/SoccerMatchBetting/blob/main/Notebooks/DataCleaning.ipynb)         
+- Finally, I created the target from the home and away scores, and with that, I have a multiclass category of (Draw/HomeWin/AwayWin).
 
-- Environment details can be found [here](https://github.com/Teetee-lab/SoccerMatchBetting/blob/main/environment.yml)
+- Project library dependencies can be found [here](https://github.com/Teetee-lab/SoccerMatchBetting/blob/main/environment.yml)
 
 ## Project Results
-- There was a monotonic trend performance with the accuracy score of all the models. As one increases the other decreases, which is due to the complexity of soccer games. After tuning several models, the Logistic Regression model was the best performing model in classifying the business problem. The model achieved an accuracy score of 60% on unseen data, weighted average score at 54% with a probability of loss at -0.9. The macro-average area under the curve is 0.74 and the micro average area under the curve is 0.78.
+- There was a monotonic trend performance with the accuracy score of all the models. As one increases the other decreases, which is due to the complexity of soccer games. However, after tuning the models, the logistic regression algorithm was performing at its best in classifying the soccer dataset. The model achieved an accuracy score of 60% on unseen data, and a weighted average score of 54% with a probability of loss at -0.9. The macro-average area under the curve is 74% and the micro average area under the curve is 78%.
 
 ## Conclusions
-- My recommendation will be to take into consideration each team's soccer power index before using the model to predict the match. To make it simple, using the model to predict a match before betting will give you more relevant information about each team's quality and more valuable insights to their performance analysis than studying the results afterwards.
+- Take into consideration each team's soccer power index before using the model to predict the match. Using the model as a tool to predict a match before betting will give you more relevant information about each team's quality and more valuable insights into their performance analysis than studying the results afterward.
 
-- The stakeholder can use the model to predict upcoming match fixtures, but will advise to backup bets, if the model predicts a win class, back it up with a draw class because soccer is a tricky sport to model due to few goals scored in each match.
+- The model can be used to predict upcoming match fixtures, however, I will advise stakeholders to back up bets, if the model predicts a Win, back it up with a Draw because soccer is a complex sport to model due to the few goals that are scored in the game.
 
 
 ## Next Steps
-- **Deep Learning Approach:** I have only used the supervised learning approach in the process of developing the machine learning model. In the future, I would like to incorporate unsupervised learning techniques like deep learning to improve the accuracy of the model. 
+- Deep Learning Approach: I have only used the supervised learning approach in the process of developing the algorithm. I would like to incorporate unsupervised learning techniques like deep learning to improve the accuracy of the model.
 
-- **Team players performance:** I would like to include the soccer players, their physical performance and capabilities in the future analysis. that will help improve the accuracy of the model.
+- Team player's performance: I would like to include the soccer players' physical performance and capabilities.
 
-- **Fifa World Cup soccer:** Since I only base my study on seven leagues. In the future, I will like to add more leagues and continue to update the model using the world cup data.
-
+- Fifa World Cup soccer: I would like to add more leagues and continue to update the model using other soccer data.
 
 ## Repository Structure
 
@@ -51,11 +50,11 @@ The dataset was obtained  from https://projects.fivethirtyeight.com/soccer-predi
 │   ├── Models.ipynb            <- documentation of different models in Jupyter notebook
 │   └──Catboost info            <- A folder with catboost algorithm models and scores
 ├── SoccerMatchBetting.ipynb    <- Narrative documentation of the project in Jupyter notebook
-├── app.py                      <- streamlit documentation
+├── app.py                      <- Streamlit documentation
 ├── model.sav
 ├── environment.yml             <- environment libraries 
-├── requirement.txt             <- text file of liabries and dependency
-├── setup.sh                    <- streamlit config
+├── requirement.txt             <- text file of libraries and dependency
+├── setup.sh                    <- Streamlit config
 ├── Procfile
 ├── Presentation.pdf            <- PDF version of project presentation
 └── README.md                   <- Top-level README
