@@ -5,10 +5,10 @@
 ![Betting Image](./Images/soccermatchbet.png)
 
 ## Business Problem
-- Forecasting sports events like matches or tournaments has attracted the interest of different communities all over the world for quite a long time and sports events like soccer matches take place regularly because they generate huge public attention. Aside from that, winning soccer matches is becoming an essential aspect of soccer clubs and soccer fans; not only that, the global sports gambling system is multi-billion dollar rich, meanwhile, there are billions of soccer fans that gamble every day without yielding a return. My aim in this project is to build a machine learning model for soccer fans so that they can use it to predict a soccer match wisely and minimize loss.
+- Forecasting sports events like matches or tournaments has attracted the interest of different communities all over the world for quite a long time and sports events like soccer take place regularly because they generate huge public attention. Winning soccer matches is becoming an essential aspect of soccer clubs and soccer fans. While the global sports gambling system is multi-billion dollar rich, there are billions of soccer fans that gamble every day without yielding a return. Therefore, my aim in this project is to build a machine learning algorithm for soccer fans to predict a match wisely and minimize loss.
 
 ## Data Overview
-The dataset was obtained  from FiveThirtyEight, and the soccer archive odds were downloaded from Kaggle. 
+The dataset was obtained from FiveThirtyEight, and the soccer archive odds were downloaded from Kaggle. 
 
 - The first dataset is organized into four folders and was downloaded from FiveThirtyEight
   - spi global rankings intl
@@ -16,7 +16,7 @@ The dataset was obtained  from FiveThirtyEight, and the soccer archive odds were
   - spi matches latest
   - spi matches
 - The second dataset is organized into one folder.
-  - This was an archive folder that I downloaded from Kaggle
+  - This was an archive folder that was downloaded from Kaggle
   
 - After that, I cleaned and merged the two datasets and the exploratory data analysis can be found in the [notebook folder](https://github.com/Teetee-lab/SoccerMatchBetting/blob/main/Notebooks/DataCleaning.ipynb)         
 - Finally, I created the target from the home and away scores, and with that, I have a multiclass category of (Draw/HomeWin/AwayWin).
